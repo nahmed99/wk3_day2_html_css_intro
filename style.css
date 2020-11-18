@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Make footer section and set the background-color to dodgerblue*/
+body > footer {
+    background-color: dodgerblue;
+}
+
+body > footer > p {
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+
+/* id selector starts with '#' */
+#logo {
+    margin: 0;
+    font-family: "Fredoka One", sans-serif;
+}
+
+nav > ul {
+    list-style: none;
+}
+
+body > header > nav > ul > li > a {
+    color: white;
+}
+
+body > main > aside >section > nav > ul > li > a {
+    color: gray;
+}
+
+body > main > article {
+    width: 70%;
+    margin: auto; /* This will put a margin aound the article contents */
+}
+
+/* class selector starts with '.' */
+.like-button{
+    background-color: darkblue;   
+    color: white;
+    border: 1px solid yellowgreen;
+}
+
+.share-button{
+    background-color: darkblue;
+    color: white;
+    border: 1px solid yellowgreen
+}
